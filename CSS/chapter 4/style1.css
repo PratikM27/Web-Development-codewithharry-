@@ -1,0 +1,21 @@
+.box1{
+    width: 431px;
+    height: 134px;
+    background-color: red;
+    /*display: inline;*/    /*when we write display: inline then width, height not matter*/
+    display: inline-block;         /*But when we write display: inline block then width, height will consider with inline*/
+    margin: 34px;           /*And top-bottom margin & padding can't work but Right-Left Hand side margin & padding can work*/
+}
+.box2{
+    width: 431px;
+    height: 134px;
+    background-color: blue;
+    display: inline;
+    margin: 34px;
+}
+.box3{
+    width: 431px;
+    height: 134px;
+    background-color: rgb(0, 255, 47);
+    text-align: center;
+}

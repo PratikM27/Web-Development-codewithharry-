@@ -1,0 +1,13 @@
+*{
+    margin: 0;      /* used to reset style according to you */
+    padding: 0;
+}
+.red{
+    background: red;
+    color: antiquewhite;
+    height: 300px;
+}
+.green{
+    background: green;
+    color: aqua;
+}

@@ -1,0 +1,23 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+ul{
+    background-color: blue;
+    color: white;
+    width: 334px;
+    height: 334px;
+}
+.main{
+    color: red;
+}
+.bg{
+    width: 700px;
+    height: 1450px;
+    background-image: url('2.jpg');
+    background-repeat: no-repeat;
+    background-color: rgb(255, 0, 238);
+    background-size: 699px 449px;
+    background-attachment: fixed;
+    /* background: red url(2.jpg) no-repeat fixed top; */
+}

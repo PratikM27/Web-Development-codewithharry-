@@ -1,0 +1,14 @@
+/* .container{
+    font-size: 34px;
+} */
+.box{
+    /* font-size: 12px; */
+    /* font-size: 3rem; */
+    background-color: red;
+}
+.box2{
+    background-color: aqua;
+    width: 334px;
+    width: 50vw;
+    height: 50vh;
+}

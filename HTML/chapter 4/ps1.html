@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=\, initial-scale=1.0">
+    <title>HTML Form for Travel Website</title>
+</head>
+
+<body>
+    <div>
+        <h1>Travel booking</h1>
+        <form action="form.php">
+            <b>Details</b><br>
+            Name <input type="text" placeholder="Enter your name"><br>
+            Mobile No. <input type="text" placeholder="Enter your Mobile No."><br>
+            Address <input type="text" placeholder="Enter your perment Address"><br>
+            <label for="genderm">Gender
+                <input type="radio" value="gender m" name="gender" id="genderm">Male
+            </label>
+            <label for="genderf">
+                <input type="radio" value="gender f" name="gender" id="genderf">Female
+            </label><br>
+            <textarea name="about yourself" id="about yourself"
+                placeholder="Tell us about your Health related issued if any?" cols="40" rows="4"></textarea><br>
+            <b>Select your destination for booking</b><br>
+            <select name="destination" id="destination">
+                <option value="no-destination">select destination</option>
+                <option value="lonavla">Lonavla</option>
+                <option value="pavana dam">Pavana Dam</option>
+                <option value="marin drive">Marin Drive</option>
+                <option value="gova">Gova</option>
+            </select>
+            <input type="date" name="date"><br>
+            <b>Upload your ID proof (Any 1)</b><br>
+            <label for="idproofa">
+                <input type="checkbox" name="id proof" id="idproofa">Addhar Card
+            </label>
+            <label for="idproofd">
+                <input type="checkbox" name="id proof" id="idproofd">Driving Licence
+            </label>
+            <input type="file" accept="image/*, text/*" name="file"><br><br>
+            <label for="confirm">
+                <input type="checkbox" name="confirmation" id="confirm">I heardly inform that above Information is true.
+            </label><br>
+            <input type="submit" name="submit">
+            <input type="reset" name="reset">
+        </form>
+    </div>
+</body>
+
+</html>
